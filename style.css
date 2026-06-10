@@ -21,11 +21,17 @@ h1 {
     padding: 0px;
 }
 
-h4 {
+.h4 {
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
     color: #A5A3B9;
+}
+
+.img {
+    margin: 0px auto;
+    width: 300px;
+    height: 250px;
 }
 
 .product-list {
@@ -42,7 +48,7 @@ h4 {
     width: 340px;
     padding: 25px;
     margin: 45px;
-    background: url('img/bg.png') no-repeat center;
+    background-color: white;
 }
 
 
@@ -55,17 +61,4 @@ h4 {
     justify-content: space-between;
     margin-top: 25px;
     font-size: 20px;
-}
-
-
-
-/*
-.section {
-    padding: 80px 50px;
-}
-*/
-img {
-    margin: 0px auto;
-    width: 300px;
-    height: 250px;
 }
