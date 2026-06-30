@@ -45,7 +45,7 @@ h1 {
     transition-duration: 0.7s;
 }
 
-.card_img {
+.card__img {
     margin: 0px auto;
     margin-bottom: 5px;
     width: 300px;
@@ -53,17 +53,17 @@ h1 {
     border-radius: 5px;
 }
 
-.card_subtitle {
+.card__subtitle {
     font-weight: 700;
     font-size: 20px;
 }
 
-.card_text {
+.card__text {
     font-size: 14px;
     font-weight: 500;
 }
 
-.card_list {
+.card__list {
     padding-left: 15px;
     max-height: fit-content;
     font-weight: 500;
@@ -71,7 +71,7 @@ h1 {
     height: 100%;
 }
 
-.card_label {
+.card__label {
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -79,7 +79,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.card_price {
+.card__price {
     display: flex;
     margin: 25px 0;
     font-size: 20px;
@@ -91,27 +91,19 @@ h1 {
 .button {
     width: 102px;
     height: 36px;
-    padding: 6px;
+    padding: 5px;
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2%;
     border-width: 2px;
     border-color: #464F6029;
-    box-shadow: 0px 0px 0px 1px #464F6029,
+    box-shadow: 0px 0px 0px 1px #464F6029;
 }
 
-.card_btn {
+.card__btn {
     text-align: center;
-}
-
-.card_btn-icon {
-    img {
-        width: 20px;
-    }
 }
