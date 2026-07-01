@@ -37,7 +37,7 @@ h1 {
 .card {
     width: 340px;
     min-height: 560px;
-    padding: 20px;
+    padding: 25px;
     margin: 45px;
     background-color: #f7f7fa;
     border-radius: 5px;
@@ -66,7 +66,7 @@ h1 {
 .card__list {
     padding-left: 15px;
     max-height: fit-content;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     height: 100%;
 }
