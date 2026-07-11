@@ -13,7 +13,6 @@ body {
     background-image: url(./background.png);
     background-repeat: no-repeat;
     background-size: 790px 697px;
-    position: absolute;
 }
 
 h1 {
