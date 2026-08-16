@@ -12,7 +12,6 @@ const blueolorHash = 'rgb(40, 10, 209)';
 const purpleolorHash = 'rgb(132, 21, 184)';
 const orangeolorHash = 'rgb(214, 115, 23)';
 
-
 cardButton1.addEventListener('click', () => {
     firstCard.style.backgroundColor = greenColorHash;
 })
@@ -40,26 +39,18 @@ productButtons.addEventListener('dblclick', () => {
     allCards.forEach((card) => card.style.backgroundColor = purpleolorHash);
 })
 
+const openGoogleButton = document.querySelector('#open-google');
 
+openGoogleButton.addEventListener('click', openGoogle)
 
-
-
-
-const openGoogle = document.querySelector('#open_google');
-
-openGoogle.addEventListener('click', OpenGoogle)
-
-function OpenGoogle() {
+function openGoogle() {
     const question = confirm('Вы действительно хотите открыть новое окно Google?')
     if (question === true) {
         window.open('https://google.com')
-    }
-    else {
+    } else {
         return;
     }
 }
-
-
 
 const outputMessage = document.querySelector('#send-message');
 
@@ -70,14 +61,11 @@ function outputConsoleLog(message) {
     console.log(message)
 }
 
-
 const title = document.querySelector('.navigation')
 
 title.addEventListener('mouseover', () => {
     outputConsoleLog(title.textContent, null);
 });
-
-
 
 const changeBtnColor = document.querySelector('#btn-color');
 
