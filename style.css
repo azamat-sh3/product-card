@@ -30,6 +30,10 @@ body {
     width: 180px;
 }
 
+.button-toggle {
+    background-color: rgb(132, 21, 184);
+}
+
 h1 {
     font-size: 70px;
     line-height: 78px;
