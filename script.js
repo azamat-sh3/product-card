@@ -68,6 +68,7 @@ title.addEventListener('mouseover', () => {
 });
 
 const changeBtnColor = document.querySelector('#btn-color');
+const toggleColorButton = document.querySelector('.toggle-color-btn');
 
 changeBtnColor.addEventListener('click', () => {
     toggleColorButton.classList.toggle('button-toggle')
