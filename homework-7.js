@@ -24,3 +24,11 @@ function buy(budget) {
         console.log(`Вам не хватает ${difference}$, пополните баланс`);
     }
 }
+
+function showMessage() {
+    console.log('How are you?')
+}
+
+const name = "Azamat";
+const city = "Dubai";
+let age = 17;
