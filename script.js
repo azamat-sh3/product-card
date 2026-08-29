@@ -73,11 +73,3 @@ const toggleColorButton = document.querySelector('.toggle-color-btn');
 changeBtnColor.addEventListener('click', () => {
     toggleColorButton.classList.toggle('button-toggle')
 })
-
-function showMessage() {
-    console.log('How are you?')
-}
-
-const name = "Azamat";
-const city = "Dubai";
-let age = 17;
