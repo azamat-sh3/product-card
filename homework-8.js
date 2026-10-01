@@ -24,7 +24,6 @@ function addMaxSpeed(car) {
     }
 }
 
-
 function getProperty(person, property) {
     console.log(person[property]);
 }
