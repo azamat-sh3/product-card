@@ -1,9 +1,6 @@
 import { postComments } from "./comments.js";
 
 
-
-
-
 // 2. Фильтрация массива чисел
 
 const numbers=[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
@@ -41,7 +38,6 @@ const postIdCounts=comments.map( comment => ({
   ...comment,
   postId: comment.id <= 5 ? 2 : 1
 }));
-
 console.log( postIdCounts );
 
 
@@ -52,7 +48,6 @@ const idAndName=comments.map( comment => ({
   id: comment.id,
   name: comment.name
 }));
-
 console.log( idAndName );
 
 
@@ -65,11 +60,11 @@ const updatedComments=comments.map( comment => {
       isInvalid: comment.body.length > 180
   };
 });
-
 console.log( updatedComments );
 
 
 // 11. Получение массива email с помощью reduce и map
+
 
 const emailsReduce = comments.reduce( ( acc, comment ) => {
     acc.push( comment.email );
@@ -79,6 +74,7 @@ console.log( emailsReduce );
 
 const emailsMap=comments.map( comment => comment.email );
 console.log( emailsMap )
+
 
 // 12. Преобразование массива email в строку
 
